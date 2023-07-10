@@ -1,5 +1,5 @@
 # SimplyR Python Lib
-Python wrapper of the simplyr-lib market matching algorithms implemented in RUST
+Python wrapper of the [simplyr-lib](https://github.com/BESTenergytrade/simplyr-lib) market matching algorithms implemented in RUST
 
 ## Getting Started
 Use Pyo3 Lib to wrap the rust library into a python lib.
