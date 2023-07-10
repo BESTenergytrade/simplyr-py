@@ -1,0 +1,13 @@
+[package]
+name = "simplyr_py"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+pyo3 = { version = "0.15", features = ["extension-module"] }
+clap = {}
+simplyr-lib = { default-features = false, git = "https://github.com/BESTenergytrade/simplyr-lib.git", branch = "cI/usize" }
+serde_json = "1.0.87"
+
+[build-dependencies]
+maturin = "0.12"
