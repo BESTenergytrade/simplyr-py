@@ -1,9 +1,12 @@
 # SimplyR Python Lib
+Python wrapper of the simplyr-lib market matching algorithms implemented in RUST
 
+## Getting Started
 Use Pyo3 Lib to wrap the rust library into a python lib.
 
 ```
 python -m venv venv/
+source venv/bin/activate
 pip install maturin
 ```
 
@@ -14,7 +17,7 @@ maturin develop
 
 Run example:
 ```
-python run_matching:
+python run_matching.py
 ```
 
 ## License
